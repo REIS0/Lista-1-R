@@ -68,8 +68,12 @@ queue <- c(queue[1:(length(queue)-1)])
 # e.
 queue <- c(setdiff(queue, "Alison"))
 
-# 6.
+# 6. aaaaa
 x <- 1
 
+# 7.
+a <- c(0,5)
+mat <- matrix(a, nrow = 10, ncol = 10)
 
+mat <- matrix(sample(seq(from = 0, to = 5, by = 5), rep = TRUE), nrow = 10, ncol = 10)
 
